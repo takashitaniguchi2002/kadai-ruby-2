@@ -12,8 +12,8 @@ def fizzbuzz(num)
 end
 
 num=1
-while num <=100
-  fizzbuzz(num)
-  num+=1
-  
+num_max = 100
+while num<=num_max
+ fizzbuzz(num)
+ num+=1
 end
