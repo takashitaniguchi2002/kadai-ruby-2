@@ -1,8 +1,5 @@
 def fizzbuzz(num)
-  num = 1
-while num <= 100
-
-
+  
   if num % 15 == 0
       puts "FizzBuzz"
   elsif num % 3 == 0
@@ -12,7 +9,11 @@ while num <= 100
   else
       puts num.to_s
   end
-   num+= 1
 end
+
+num=1
+while num <=100
+  fizzbuzz(num)
+  num+=1
+  
 end
-fizzbuzz(1)
